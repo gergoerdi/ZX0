@@ -34,7 +34,7 @@ BLOCK *ghost_root = NULL;
 BLOCK *dead_array = NULL;
 int dead_array_size = 0;
 
-BLOCK *allocate(int bits, int index, int offset, BLOCK *chain) {
+BLOCK *zx0_allocate(int bits, int index, int offset, BLOCK *chain) {
     BLOCK *ptr;
 
     if (ghost_root) {

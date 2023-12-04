@@ -37,7 +37,7 @@ typedef struct block_t {
     int references;
 } BLOCK;
 
-BLOCK *allocate(int bits, int index, int offset, BLOCK *chain);
+BLOCK *zx0_allocate(int bits, int index, int offset, BLOCK *chain);
 
 void assign(BLOCK **ptr, BLOCK *chain);
 
